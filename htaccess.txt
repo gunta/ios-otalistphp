@@ -1,0 +1,7 @@
+<IfModule mime_module>
+    AddType application/octet-stream .ipa
+    AddType text/xml .plist
+</IfModule>
+<Files *.ipa>
+  Header set Content-Disposition attachment
+</Files>
