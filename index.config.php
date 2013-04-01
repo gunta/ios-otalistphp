@@ -10,7 +10,10 @@
         "localPath" => ".",
 
         // Base url for the plist/ipa files with trailing slash. Not needed if parsePlist == true.
-        "baseUrl" => "http://.../"
+        "baseUrl" => "http://.../",
+        
+        //The max number of builds to display
+        "maxDisplayCount" => 25
     );
 
 ?>
